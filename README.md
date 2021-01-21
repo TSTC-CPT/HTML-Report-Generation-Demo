@@ -1,5 +1,5 @@
 # HTML Demo
-Demonstration of HTML and CSS reporting.
+Demonstration of HTML and CSS reporting in a C# application. 
 Example code for use by students. 
 
 ### Development Environment
