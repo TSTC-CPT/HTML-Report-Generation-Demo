@@ -40,6 +40,8 @@ namespace HTML_Demo
 
         /// <summary>
         /// Using StringBuilder to keep up with all the lines of text produced.
+        /// AppendLine() automatically places a line break at the end.
+        /// Append() attaches to the last part of the previous string.
         /// https://www.tutorialsteacher.com/csharp/csharp-stringbuilder
         /// </summary>
         /// <param name="title">This is used for the browser tab and the H1 tag.</param>
@@ -53,10 +55,10 @@ namespace HTML_Demo
             // In this example, the H1 and TD tags are customized.
             // Refer to this website for examples: https://www.w3schools.com/Css/css_syntax.asp
 
-            css.Append("<style>");
-            css.Append("td {padding: 5px; text-align:center; font-weight: bold; text-align: center;}");
-            css.Append("h1 {color: blue;}");
-            css.Append("</style>");
+            css.AppendLine("<style>");
+            css.AppendLine("td {padding: 5px; text-align:center; font-weight: bold; text-align: center;}");
+            css.AppendLine("h1 {color: blue;}");
+            css.AppendLine("</style>");
 
             // HTML is used to format the layout of a webpage. This will be the frame
             // we use to place our data in. CSS is used to style the page to look a
@@ -71,11 +73,11 @@ namespace HTML_Demo
             // <H1> and </H1> is the largest font size for headings. These
             // can be from H1 to H6. H6 is the smallest font. https://www.w3schools.com/tags/tag_hn.asp
 
-            html.Append("<html>");
-            html.Append($"<head>{css}<title>{title}</title></head>");
-            html.Append("<body>");
+            html.AppendLine("<html>");
+            html.AppendLine($"<head>{css}<title>{title}</title></head>");
+            html.AppendLine("<body>");
 
-            html.Append($"<h1>{title}</h1>");
+            html.AppendLine($"<h1>{title}</h1>");
 
             // Create table of data
             // <TABLE> and </TABLE> is the start and end of a table of rows and data.
@@ -86,9 +88,9 @@ namespace HTML_Demo
             // I used an <HR /> tag which is a "horizontal rule" as table data.
             // You can "span" it across multiple columns of data.
 
-            html.Append("<table>");
-            html.Append("<tr><td>First Name</td><td>Last Name</td><td>Age</td></tr>");
-            html.Append("<tr><td colspan=3><hr /></td></tr>");
+            html.AppendLine("<table>");
+            html.AppendLine("<tr><td>First Name</td><td>Last Name</td><td>Age</td></tr>");
+            html.AppendLine("<tr><td colspan=3><hr /></td></tr>");
             foreach (Person person in people)
             {
                 html.Append("<tr>");
@@ -96,10 +98,10 @@ namespace HTML_Demo
                 html.Append($"<td>{person.strLastName}</td>");
                 html.Append($"<td>{person.intAge}</td>");
                 html.Append("</tr>");
-                html.Append("<tr><td colspan=4><hr /></td></tr>");
+                html.AppendLine("<tr><td colspan=4><hr /></td></tr>");
             }
-            html.Append("</table>");
-            html.Append("</body></html>");
+            html.AppendLine("</table>");
+            html.AppendLine("</body></html>");
 
             return html; // The returned value has all the HTML and CSS code to represent a webpage
         }
