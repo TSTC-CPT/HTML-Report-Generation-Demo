@@ -8,6 +8,7 @@ receipts, and other types of similar output in a highly portable light weight ma
 
 ![Form](https://github.com/dwkuehne/HTML-Demo/blob/master/form.png "Main Form")
 ![Report](https://github.com/dwkuehne/HTML-Demo/blob/master/report.png "HTML Report")
+![Source](https://github.com/dwkuehne/HTML-Demo/blob/master/source.png "HTML Source")
 
 This is not an exhaustive demonstration of HTML or CSS nor is it a complete solution for any project.
 ---David Kuehne, CPT Instructor, January 2021
