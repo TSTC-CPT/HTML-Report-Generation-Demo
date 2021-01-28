@@ -34,7 +34,7 @@ This is not an exhaustive demonstration of HTML or CSS nor is it a complete solu
 - Langauge: C#
 - Development Environment: Visual Studio 2019 Community Edition
 - Target Environment: Windows 10
-- Target Audienece: Students
+- Target Audience: Students
 
 ### Contact
 - David Kuehne
