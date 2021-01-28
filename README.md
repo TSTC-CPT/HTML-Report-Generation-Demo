@@ -1,3 +1,4 @@
+![HTML Logo](https://github.com/dwkuehne/HTML-Report-Generation-Demo/blob/master/HTML-Logo.png "HTML Logo") 
 # HTML Report Generation Demo
 Demonstration of HTML and CSS reporting in a C# application. 
 Example code for use by students. 
