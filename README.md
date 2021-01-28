@@ -3,8 +3,23 @@ Demonstration of HTML and CSS reporting in a C# application.
 Example code for use by students. 
 
 ### Project Introduction
-The purpose of this code is to demonstrate creating an HTML file that can be used to display reports,
-receipts, and other types of similar output in a highly portable light weight manner. 
+The purpose of this code is to demonstrate creating an HTML file that can be used to display reports, receipts, and other types of similar output in a highly portable light weight manner. This code uses StringBuilder with the .Append() and .AppendLine() methods.
+```csharp
+html.AppendLine("<table>");
+html.AppendLine("<tr><td>First Name</td><td>Last Name</td><td>Age</td></tr>");
+html.AppendLine("<tr><td colspan=3><hr /></td></tr>");
+foreach (Person person in people)
+{
+html.Append("<tr>");
+html.Append($"<td>{person.strFirstName}</td>");
+html.Append($"<td>{person.strLastName}</td>");
+html.Append($"<td>{person.intAge}</td>");
+html.Append("</tr>");
+html.AppendLine("<tr><td colspan=4><hr /></td></tr>");
+}
+html.AppendLine("</table>");
+html.AppendLine("</body></html>");
+```
 
 ![Form](https://github.com/dwkuehne/HTML-Demo/blob/master/form.png "Main Form")
 ![Report](https://github.com/dwkuehne/HTML-Demo/blob/master/report.png "HTML Report")
