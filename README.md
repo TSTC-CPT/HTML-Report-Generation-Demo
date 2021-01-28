@@ -1,4 +1,5 @@
-# HTML Demo
+![HTML Logo](https://github.com/dwkuehne/HTML-Report-Generation-Demo/blob/master/html.png "HTML Logo")
+# HTML Report Generation Demo
 Demonstration of HTML and CSS reporting in a C# application. 
 Example code for use by students. 
 
@@ -21,9 +22,9 @@ html.AppendLine("</table>");
 html.AppendLine("</body></html>");
 ```
 
-![Form](https://github.com/dwkuehne/HTML-Demo/blob/master/form.png "Main Form")
-![Report](https://github.com/dwkuehne/HTML-Demo/blob/master/report.png "HTML Report")
-![Source](https://github.com/dwkuehne/HTML-Demo/blob/master/source.png "HTML Source")
+![Form](https://github.com/dwkuehne/HTML-Report-Generation-Demo/blob/master/form.png "Main Form")
+![Report](https://github.com/dwkuehne/HTML-Report-Generation-Demo/blob/master/report.png "HTML Report")
+![Source](https://github.com/dwkuehne/HTML-Report-Generation-Demo/blob/master/source.png "HTML Source")
 
 This is not an exhaustive demonstration of HTML or CSS nor is it a complete solution for any project.
 ---David Kuehne, CPT Instructor, January 2021
