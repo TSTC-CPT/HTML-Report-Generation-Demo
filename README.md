@@ -37,9 +37,11 @@ This is not an exhaustive demonstration of HTML or CSS nor is it a complete solu
 - Target Audience: Students
 
 ### Contact
-- David Kuehne
-- dwkuehne@tstc.edu
-- Texas State Technical College
+```
+David Kuehne
+dwkuehne@tstc.edu
+Texas State Technical College
+```
 
 ### <a href="https://github.com/dwkuehne/HTML-Report-Generation-Demo/blob/master/LICENSE" target="_blank">License</a>
 dwkuehne/HTML-Report-Generation-Demo is licensed under the GNU General Public License v3.0
