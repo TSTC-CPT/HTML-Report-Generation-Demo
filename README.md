@@ -33,13 +33,15 @@ This is not an exhaustive demonstration of HTML or CSS nor is it a complete solu
 
 - Langauge: C#
 - Development Environment: Visual Studio 2019 Community Edition
+- Target Environment: Windows 10
+- Target Audienece: Students
 
 ### Contact
-- David Kuehne
-- dwkuehne@tstc.edu
+David Kuehne
+dwkuehne@tstc.edu
+Texas State Technical College
 
-### <a href="https://github.com/dwkuehne/HTML-Demo/blob/master/LICENSE" target="_blank">License</a>
-dwkuehne/HTML-Demo is licensed under the
-GNU General Public License v3.0
+### <a href="https://github.com/dwkuehne/HTML-Report-Generation-Demo/blob/master/LICENSE" target="_blank">License</a>
+dwkuehne/HTML-Report-Generation-Demo is licensed under the GNU General Public License v3.0
 
 Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
