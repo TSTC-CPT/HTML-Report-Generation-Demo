@@ -5,6 +5,8 @@ Example code for use by students.
 
 ### Project Introduction
 The purpose of this code is to demonstrate creating an HTML file that can be used to display reports, receipts, and other types of similar output in a highly portable light weight manner. This code uses **StringBuilder** with the **.Append()** and **.AppendLine()** methods.
+
+#### Code Preview:
 ```csharp
 html.AppendLine("<table>");
 html.AppendLine("<tr><td>First Name</td><td>Last Name</td><td>Age</td></tr>");
@@ -21,9 +23,11 @@ html.AppendLine("<tr><td colspan=4><hr /></td></tr>");
 html.AppendLine("</table>");
 html.AppendLine("</body></html>");
 ```
-
+#### Form View
 ![Form](https://github.com/dwkuehne/HTML-Report-Generation-Demo/blob/master/form.png "Main Form")
+#### Report View
 ![Report](https://github.com/dwkuehne/HTML-Report-Generation-Demo/blob/master/report.png "HTML Report")
+#### Source View
 ![Source](https://github.com/dwkuehne/HTML-Report-Generation-Demo/blob/master/source.png "HTML Source")
 
 This is not an exhaustive demonstration of HTML or CSS nor is it a complete solution for any project.
