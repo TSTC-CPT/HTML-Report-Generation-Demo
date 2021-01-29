@@ -30,18 +30,19 @@ This is not an exhaustive demonstration of HTML or CSS nor is it a complete solu
 ---David Kuehne, CPT Instructor, January 2021
 
 ### Development Environment
-
-- Langauge: C#
-- Development Environment: Visual Studio 2019 Community Edition
-- Target Environment: Windows 10
-- Target Audience: Students
+Type | Description
+-----|-------------
+Language | C#
+Development Environment | Visual Studio 2019 Community Edition
+Target Environment | Windows 10
+Target Audience | Students
 
 ### Contact
-```
-David Kuehne
-dwkuehne@tstc.edu
-Texas State Technical College
-```
+Contact | Information
+--------|------
+Name | David Kuehne
+Email | dwkuehne@tstc.edu
+Company | Texas State Technical College
 
 ### <a href="https://github.com/dwkuehne/HTML-Report-Generation-Demo/blob/master/LICENSE" target="_blank">License</a>
 dwkuehne/HTML-Report-Generation-Demo is licensed under the GNU General Public License v3.0
